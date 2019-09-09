@@ -1,0 +1,11 @@
+body{
+    font-family: 'Chilanka', cursive !important;
+}
+
+.navbarLogo{
+    height: 78px;
+}
+#inicio{
+    height: 542px;
+    background-color: aquamarine;
+}
