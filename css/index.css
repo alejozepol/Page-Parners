@@ -4,13 +4,134 @@ body{
     font-family: 'Poppins', Medium !important;
 }
 
-@media (min-width: 576px) and (max-width: 768px) {
+@media (max-width: 575px) {
+    h2 {
+        font-size: 20px;
+    }
+    h3 {
+        font-size: 16px;
+    }
+    h4 {
+        font-size: 14px;
+    }
+    p{
+        font-size: 12px;
+    }
+    .logo__contenedor-logo{
+        height: 30px;
+    }
+    .menu__lista__contenedor ul li{
+        padding: 0% !important;
+    }
+ /* inicio estilos hero */
+    .hero__seccion{
+        width: 100%;
+        height: 500px;
+    }
+    .hero__subTitulo p{
+        font-size: 28px;
+    }
+    /* incio bloque 1 */
+    .bloque1__seccion p {
+        max-width: 784px;
+    }
+    .cajaImagenTextDer img{
+    max-width: 50%;
+    }
+    .cajaImagenTextIzq img{
+        max-width: 50%;
+        }
 
+    .textoImagen p{
+        max-width: 540px;
+    }
+ }
+
+@media (min-width: 576px) and (max-width: 768px) {
+    h2 {
+        font-size: 20px;
+    }
+    h3 {
+        font-size: 18px;
+    }
+    h4 {
+        font-size: 16px;
+    }
+    p{
+        font-size: 14px;
+    }
+    .logo__contenedor-logo{
+        height: 50px;
+    }
+    .menu__lista__contenedor ul li{
+        padding: 1% !important;
+    }
+ /* inicio estilos hero */
+    .hero__seccion{
+        width: 100%;
+        height: 500px;
+    }
+    .hero__subTitulo p{
+        font-size: 28px;
+    }
+    /* incio bloque 1 */
+    .bloque1__seccion p {
+        max-width: 784px;
+    }
+    .cajaImagenTextDer img{
+    max-width: 50%;
+    }
+    .cajaImagenTextIzq img{
+        max-width: 50%;
+        }
+
+    .textoImagen p{
+        max-width: 540px;
+    }
  }
 
 
 @media (min-width: 768px) and (max-width: 992px) {
+    h2 {
+        font-size: 20px;
+    }
+    h3 {
+        font-size: 18px;
+    }
+    h4 {
+        font-size: 16px;
+    }
+    p{
+        font-size: 14px;
+    }
+    .logo__contenedor-logo{
+        height: 50px;
+    }
+    .menu__lista__contenedor ul li{
+        padding: 1% !important;
+    }
+ /* inicio estilos hero */
+    .hero__seccion{
+        width: 100%;
+        height: 500px;
+    }
+    .hero__subTitulo p{
+        font-size: 28px;
+    }
+    /* incio bloque 1 */
+    .bloque1__seccion p {
+        max-width: 784px;
+    }
+    .cajaImagenTextDer img{
+    max-width: 50%;
+    }
+    .cajaImagenTextIzq img{
+        max-width: 50%;
+        }
 
+    .textoImagen p{
+        max-width: 540px;
+    }
 }
 
 
