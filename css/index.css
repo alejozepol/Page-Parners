@@ -29,3 +29,11 @@ body{
 .menu__lista__contenedor ul li{
     padding: 2%;
 }
+.menu__lista__contenedor ul li:hover{
+    padding: 2%;
+    margin-bottom: 2%;
+    background: -webkit-linear-gradient(left top, #d9005a, #ffb800);
+    background: linear-gradient(to bottom right, #d9005a, #ffb800);
+    -webkit-background-clip: text;  
+    -webkit-text-fill-color: transparent;  
+}
