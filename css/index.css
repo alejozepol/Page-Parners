@@ -123,10 +123,10 @@ body{
         max-width: 784px;
     }
     .cajaImagenTextDer img{
-    max-width: 50%;
+        width: 50%;
     }
     .cajaImagenTextIzq img{
-        max-width: 50%;
+        width: 50%;
         }
 
     .textoImagen p{
@@ -167,10 +167,10 @@ body{
         max-width: 784px;
     }
     .cajaImagenTextDer img{
-    max-width: 50%;
+        width: 50% !important;
     }
     .cajaImagenTextIzq img{
-        max-width: 50%;
+        width: 50% !important;
         }
 
     .textoImagen p{
@@ -203,10 +203,10 @@ body{
         max-width: 784px;
     }
     .cajaImagenTextDer img{
-    max-width: 50%;
+        width: 50% !important;
     }
     .cajaImagenTextIzq img{
-        max-width: 50%;
+        width: 50% !important;
         }
 
     .textoImagen p{
@@ -252,11 +252,11 @@ body{
         max-width: 784px;
     }
     .cajaImagenTextDer img{
-        width: 1000px;
+        width: 1000px !important;
         padding-right: 10%;
     }
     .cajaImagenTextIzq img{
-        width: 1000px;
+        width: 1000px !important;
         padding-left: 10%;
     }
 
