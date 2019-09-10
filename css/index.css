@@ -3,3 +3,29 @@
 body{
     font-family: 'Poppins', Medium !important;
 }
+.menu__contenedor{
+    border: 2px solid #fff;
+    display: flex;
+    height: 150px;
+    background-color: #00142A;
+    justify-content: center;
+    align-items: center;
+}
+.logo__contenedor-logo{
+    height: 100px;
+}
+.menu__lista__contenedor{
+    color: #FFFFFF;
+    display: flex;
+}
+.menu__lista__contenedor ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0%;
+    padding: 0%;
+}
+.menu__lista__contenedor ul li{
+    padding: 2%;
+}
