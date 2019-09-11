@@ -18,7 +18,7 @@ body{
         font-size: 12px;
     }
     .logo__contenedor-logo{
-        height: 30px;
+        height: 50px;
     }
     .menu__contenedor{
         flex-direction: column;
@@ -26,7 +26,7 @@ body{
     }
     .menu__contenedor--hamburguesa{
         position: absolute;
-        top: 1%;
+        top: 8%;
         right: 8%;
         width: 35px;
         height: 35px;
@@ -44,11 +44,15 @@ body{
         flex-direction: column;
         padding: initial !important;
         margin: initial !important;
+        display: none;
     }
  /* inicio estilos hero */
     .hero__seccion{
         width: 100%;
         height: 500px;
+    }
+    .hero__titulo{
+        padding-top: 35% !important;
     }
     .hero__subTitulo p{
         font-size: 28px;
@@ -92,7 +96,7 @@ body{
     }
     .menu__contenedor--hamburguesa{
         position: absolute;
-        top: 1%;
+        top: 8%;
         right: 8%;
         width: 35px;
         height: 35px;
@@ -110,11 +114,15 @@ body{
         flex-direction: column;
         padding: initial !important;
         margin: initial !important;
+        display: none;
     }
  /* inicio estilos hero */
     .hero__seccion{
         width: 100%;
         height: 500px;
+    }
+    .hero__titulo{
+        padding-top: 25% !important;
     }
     .hero__subTitulo p{
         font-size: 28px;
@@ -182,6 +190,9 @@ body{
     .hero__seccion{
         width: 100%;
         height: 500px;
+    }
+    .hero__titulo{
+        padding-top: 25% !important;
     }
     .hero__subTitulo p{
         font-size: 28px;
