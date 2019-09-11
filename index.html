@@ -12,7 +12,7 @@
 </head>
 <body>
    <header>
-        <button id="menuHamburguesa" class="menu__contenedor--hamburguesa">
+        <button id="menuHamburguesa" class="menu__contenedor--hamburguesa" onclick="Mostrar_Ocultar()">
         <img src="img/MenuHamburguesaBlancoLineaColor.svg" alt="Menu Hamburguesa">
         <!-- <img src="img/MenuHamburguesaNegroLineaColor.svg" alt="Menu Hamburguesa" width="30px">
         <img src="img/MenuHamburguesaLlamaColores.svg" alt="Menu Hamburguesa" width="30px">
@@ -24,7 +24,7 @@
            <h1 style="display: none">Parners</h1>
        </a>       
        <div class="menu__lista__contenedor">
-           <ul>
+           <ul id="listaMenu">
                <li> 
                    <a>Inicio</a>
                 </li>
@@ -126,5 +126,6 @@
 
 
     <script src="js/animacionTexto.js"></script>
+    <script src="js/index.js"></script>
 </body>
 </html>
