@@ -60,7 +60,16 @@ body{
     .cajaImagenTextDer img{
     max-width: 70%;
     }
- 
+    .logoClientes{
+        flex-direction: column !important;
+    }
+    .suscribete{
+        margin-top: 6%;
+    }
+    .equipo__contenedor--tarjetas{
+        flex-direction: column;
+        margin: 10%;
+    }
 }
 @media (min-width: 576px) and (max-width: 672px) {
 h2 {
@@ -120,6 +129,16 @@ p{
 
 .textoImagen p{
     max-width: 540px;
+}
+.logoClientes{
+    flex-direction: column !important;
+}
+.suscribete{
+    margin-top: 6%;
+}
+.equipo__contenedor--tarjetas{
+    flex-direction: column;
+    margin: 10%;
 }
 }
 
@@ -182,9 +201,21 @@ p{
 .textoImagen p{
     max-width: 540px;
 }
+.logoClientes{
+    flex-direction: column !important;
+}
+.suscribete{
+    margin-top: 6%;
+}
+.equipo__contenedor--tarjetas{
+    flex-direction: column;
+    margin: 10%;
 }
 
-@media (min-width: 768px) and (max-width: 992px) {
+}
+
+
+@media (min-width: 768px) and (max-width: 1081px) {
     h2 {
         font-size: 20px;
     }
@@ -218,8 +249,14 @@ p{
     .cajaImagenTextDer img{
         width: 50%;
     }
+    .logoClientes{
+        flex-direction: column !important;
+    }
+    .suscribete{
+        margin-top: 6%;
+    }
 }
-@media (min-width: 992px) and (max-width: 1200px) {
+@media (min-width: 1082px) and (max-width: 1200px) {
     h2 {
         font-size: 20px;
     }
@@ -242,6 +279,7 @@ p{
  /* inicio estilos hero */
     .hero__seccion{
         width: 100%;
+        margin-top: 4% !important;
     }
     .hero__subTitulo p{
         font-size: 28px;
@@ -308,6 +346,7 @@ p{
     /* inicio estilos hero */
     .hero__seccion{
         width: 100%;
+        margin-top: 3% !important;
     }
 
     .hero__subTitulo p{
@@ -320,6 +359,9 @@ p{
     .textoImagen p{
         max-width: 540px;
 
+    }
+    .bloque{
+        min-width: 100vw;
     }
 }
   /* incio menu */
@@ -378,6 +420,9 @@ p{
     justify-content: flex-start;
     align-items: center;
     margin-top: 7%;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-bottom: 0%;
     background-image: url(../img/hero.png);
     background-size: cover;
 /*     background: -webkit-linear-gradient(to bottom, #FF314C, #FF7A1D);
@@ -437,9 +482,7 @@ font-family: 'Poppins', Light;
 
 /* incio bloque 1 */
 
-.bloque{
-    max-width: 1000px;
-    margin-top: 10%;
+.bloque{    
     z-index: 2;
 }
 .bloque1__seccion{
@@ -532,7 +575,7 @@ height: 30%;
 }
 .equipo{
     width: 100%;
-    height: 63vh;
+    min-height: 63vh;
     background-image: url(../img/fondoEquipo.png);
     background-size: cover;
 /*     background: -webkit-linear-gradient(to top right, #FF0056, #FF4B33);
