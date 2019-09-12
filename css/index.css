@@ -344,7 +344,7 @@ p{
     top:0;
     z-index: 1040;
     width: 100vw;
-    background-color: #3a3839;
+    background-color: #FF314C;
   }
 
   #menuHamburguesa{
@@ -369,6 +369,11 @@ p{
 }
 .menu__lista__contenedor ul li{
     padding: 2%;
+
+}
+.itemMenu{
+    color: #FFFFFF;
+    text-decoration: none;
 }
 .menu__lista__contenedor ul li:hover{
     padding: 2%;
@@ -387,8 +392,10 @@ p{
     justify-content: flex-start;
     align-items: center;
     margin-top: 7%;
-    background: -webkit-linear-gradient(top bottom, #FF314C, #FF7A1D);
-    background: linear-gradient(to top right, #FF314C, #FF7A1D);
+    background-image: url(../img/hero.png);
+    background-size: cover;
+/*     background: -webkit-linear-gradient(to bottom, #FF314C, #FF7A1D);
+    background: linear-gradient(to bottom, #FF314C, #FF7A1D); */
     height: 72vh;
 }
 .hero__seccion img{
@@ -534,8 +541,10 @@ height: 30%;
 .equipo{
     width: 100%;
     height: 63vh;
-    background: -webkit-linear-gradient(to top right, #FF0056, #FF4B33);
-    background: linear-gradient(to top right, #FF0056, #FF4B33);
+    background-image: url(../img/fondoEquipo.png);
+    background-size: cover;
+/*     background: -webkit-linear-gradient(to top right, #FF0056, #FF4B33);
+    background: linear-gradient(to top right, #FF0056, #FF4B33); */
     position: relative;
     top: 0%;
     color: #FFFFFF;
@@ -589,7 +598,7 @@ height: 30%;
 }
 .tarjeta__contenedor--socialMedia{
     margin-top: 3%;
-    scroll-margin-block: 3%;
+    margin-bottom: 3%;
     margin-left: 3%;
     margin-right: 3%;
 }
@@ -598,9 +607,24 @@ height: 30%;
     margin-top: 3%;
     scroll-margin-block: 3%;
 }
+
+.tarjeta__contenedor--boton{
+    margin: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    color: #FFFFFF;
+}
+
 .btn-rosado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 30px;
     width: 135px;
-    background: -webkit-linear-gradient(to top right, #FF0056, #FF4B33);
-    background: linear-gradient(to top bottom, #FC427B, #FF5F2F);
+    height: 35px;
+    background: -webkit-linear-gradient(to top bottom, #FD9F64, #FF004F);
+    background: linear-gradient(to top, #FD9F64, #FF004F);
+    font-size: 10px;
 }
