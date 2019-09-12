@@ -1,7 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
 
 body{
-    font-family: 'Poppins', Medium !important;
+    font-family: 'Poppins', Medium;
 }
 
 @media (max-width: 575px) {
@@ -49,7 +48,6 @@ body{
  /* inicio estilos hero */
     .hero__seccion{
         width: 100%;
-        height: 500px;
     }
     .hero__titulo{
         padding-top: 35% !important;
@@ -119,7 +117,6 @@ body{
  /* inicio estilos hero */
     .hero__seccion{
         width: 100%;
-        height: 500px;
     }
     .hero__titulo{
         padding-top: 25% !important;
@@ -189,7 +186,6 @@ body{
  /* inicio estilos hero */
     .hero__seccion{
         width: 100%;
-        height: 500px;
     }
     .hero__titulo{
         padding-top: 25% !important;
@@ -238,7 +234,6 @@ body{
  /* inicio estilos hero */
     .hero__seccion{
         width: 100%;
-        height: 500px;
     }
     .hero__subTitulo p{
         font-size: 28px;
@@ -283,7 +278,6 @@ body{
  /* inicio estilos hero */
     .hero__seccion{
         width: 100%;
-        height: 500px;
     }
     .hero__subTitulo p{
         font-size: 28px;
@@ -303,7 +297,7 @@ body{
         max-width: 540px;
     }
 }
-@media (min-width: 1200px) and (max-width: 1440px) {
+@media (min-width: 1201px) and (max-width: 1440px) {
     /* incio menu */
     .menu__contenedor{
         height: 100px;
@@ -320,7 +314,6 @@ body{
     /* inicio estilos hero */
     .hero__seccion{
         width: 100%;
-        height: 500px;
     }
     .hero__subTitulo p{
         font-size: 28px;
@@ -368,7 +361,6 @@ body{
     /* inicio estilos hero */
     .hero__seccion{
         width: 100%;
-        height: 1000px;
     }
 
     .hero__subTitulo p{
@@ -397,8 +389,12 @@ body{
   /* incio menu */
 
   header{
+
     position: fixed;
-    width: 100%;
+    top:0;
+    z-index: 1040;
+    width: 100vw;
+    background-color: #3a3839;
   }
 
   #menuHamburguesa{
@@ -406,15 +402,13 @@ body{
   }
 .menu__contenedor{
     display: flex;
-    background-color: #00142A;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 
 .menu__lista__contenedor{
     color: #FFFFFF;
     display: flex;
-    margin-left: 5%;
 }
 .menu__lista__contenedor ul{
     list-style: none;
@@ -437,16 +431,25 @@ body{
 
 /* inicio estilos hero */
 .hero__seccion{
-    background: rgb(10, 72, 138);
     color: #ffffff;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+    margin-top: 7%;
+    background: -webkit-linear-gradient(top bottom, #FF314C, #FF7A1D);
+    background: linear-gradient(to top right, #FF314C, #FF7A1D);
+    height: 72vh;
+}
+.hero__seccion img{
+    position: absolute;
+    width: 100%;
+    height: 72hv;
 }
 .hero__titulo{
 padding-top: 8%;
 display: flex;
+font-family: 'Poppins', Light;
 }
 .hero__titulo h2{
     margin-right: 4%;
@@ -484,8 +487,11 @@ display: flex;
     align-items: center;
     text-align: center;
 }
+hr{
+    background: #d9005a;
+}
 .bloque1__textoSuperior hr{
-background: #d9005a;
+
 width: 20%;
 height: 30%;
 
