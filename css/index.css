@@ -16,9 +16,7 @@ body{
     p{
         font-size: 12px;
     }
-    .logo__contenedor-logo{
-        height: 50px;
-    }
+
     .menu__contenedor{
         flex-direction: column;
         text-align: center;
@@ -77,9 +75,7 @@ h4 {
 p{
     font-size: 14px;
 }
-.logo__contenedor-logo{
-    height: 50px;
-}
+
 
 .menu__contenedor{
     flex-direction: column;
@@ -140,9 +136,7 @@ h4 {
 p{
     font-size: 14px;
 }
-.logo__contenedor-logo{
-    height: 50px;
-}
+
 .menu__contenedor--hamburguesa{
     position: absolute;
     top: 1%;
@@ -203,9 +197,7 @@ p{
     p{
         font-size: 14px;
     }
-    .logo__contenedor-logo{
-        height: 50px;
-    }
+
     .menu__lista__contenedor ul{
         display: flex;
     }
@@ -240,9 +232,7 @@ p{
     p{
         font-size: 14px;
     }
-    .logo__contenedor-logo{
-        height: 50px;
-    }
+
     .menu__lista__contenedor ul{
         display: flex;
     }
@@ -269,9 +259,7 @@ p{
     .menu__contenedor{
         height: 100px;
     }
-    .logo__contenedor-logo{
-        height: 100px;
-    }
+
     .menu__lista__contenedor ul{
         display: flex;
     }
@@ -309,9 +297,7 @@ p{
     }
     /* incio menu */
 
-    .logo__contenedor-logo{
-        height: 150px;
-    }
+
     .menu__lista__contenedor{
 
         font-size: 30px;
@@ -667,4 +653,23 @@ height: 30%;
 .suscribete form button{
     color: #FFFFFF;
     font-size: 15px;
+}
+
+footer{
+    background-image: url(../img/fondoFooter.png);
+    background-size: cover;
+    height: 48vh;
+}
+
+.footer--minHero{
+    position: absolute;
+    color: #FFFFFF;
+    margin-top: 6%;
+    margin-left: 15%;
+
+}
+
+.footer--minHero p{
+    margin-bottom: 0%;
+    font-size: 76%;
 }
