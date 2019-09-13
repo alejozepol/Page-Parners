@@ -918,6 +918,8 @@ height: 30%;
     background: -webkit-linear-gradient(to top bottom, #FD9F64, #FF004F);
     background: linear-gradient(to top, #FD9F64, #FF004F);
     font-size: 10px;
+    text-decoration: none;
+    color: #FFFFFF;
 }
 .btn-blanco{
     display: flex;
