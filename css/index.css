@@ -520,14 +520,8 @@ p{
     .equipo--tarjeta h3{
         font-size: 20px !important;
     }
-    .equipo--tarjeta p{
-        font-size: 16px !important;
-        margin: 1% !important;
-    }
-    .tarjeta__contenedor--socialMedia img{
-        height: 24px !important;
 
-    }
+
     .btn-rosado{
         font-size: 16px !important;
         width: 220px !important;
