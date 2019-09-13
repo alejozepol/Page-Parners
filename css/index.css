@@ -66,9 +66,46 @@ body{
     .suscribete{
         margin-top: 6%;
     }
+
     .equipo__contenedor--tarjetas{
         flex-direction: column;
         margin: 10%;
+        justify-content: center;
+        align-items: center;
+    }
+    .logoClientes img{
+        margin-bottom: 5% !important;
+    }
+    
+    .tarjeta__contenedor--img{
+        margin: 2%;
+    }
+    .equipo--tarjeta{
+        width: 79%;
+        height: 54%;
+        margin: 3%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .equipo__contenedor--tarjetas{
+        flex-direction: column;
+        margin: 10%;
+        justify-content: center;
+        align-items: center;
+    }
+    .logoClientes img{
+        margin-bottom: 5% !important;
+    }
+    
+    .tarjeta__contenedor--img{
+        margin: 2%;
+    }
+    .equipo--tarjeta p{
+        font-size: 12px !important;
+    }
+    .btn-menu{
+        width: inherit !important;
     }
 }
 @media (min-width: 576px) and (max-width: 672px) {
@@ -85,7 +122,9 @@ p{
     font-size: 14px;
 }
 
-
+.btn-menu{
+    width: inherit !important;
+}
 .menu__contenedor{
     flex-direction: column;
     text-align: center;
@@ -136,9 +175,44 @@ p{
 .suscribete{
     margin-top: 6%;
 }
+ 
 .equipo__contenedor--tarjetas{
     flex-direction: column;
     margin: 10%;
+    justify-content: center;
+    align-items: center;
+}
+.logoClientes img{
+    margin-bottom: 5% !important;
+}
+
+.tarjeta__contenedor--img{
+    margin: 2%;
+}
+
+.equipo__contenedor--tarjetas{
+    flex-direction: column;
+    margin: 10%;
+    justify-content: center;
+    align-items: center;
+}
+.logoClientes img{
+    margin-bottom: 5% !important;
+}
+
+.tarjeta__contenedor--img{
+    margin: 2%;
+}
+.equipo--tarjeta{
+    width: 57%;
+    height: 52%;
+    margin: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.equipo--tarjeta p{
+    font-size: 14px !important;
 }
 }
 
@@ -155,7 +229,9 @@ h4 {
 p{
     font-size: 14px;
 }
-
+.btn-menu{
+    width: inherit !important;
+}
 .menu__contenedor--hamburguesa{
     position: absolute;
     top: 1%;
@@ -186,6 +262,7 @@ p{
 /* inicio estilos hero */
 .hero__seccion{
     width: 100%;
+
 }
 .hero__titulo{
     padding-top: 25% !important;
@@ -207,11 +284,31 @@ p{
 .suscribete{
     margin-top: 6%;
 }
+
+.suscribete form input{
+    font-size: 1vh;
+}   
 .equipo__contenedor--tarjetas{
     flex-direction: column;
     margin: 10%;
+    justify-content: center;
+    align-items: center;
+}
+.logoClientes img{
+    margin-bottom: 5% !important;
 }
 
+.tarjeta__contenedor--img{
+    margin: 2%;
+}
+.equipo--tarjeta{
+    width: 57%;
+    height: 50%;
+    margin: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 }
 
 
@@ -238,6 +335,7 @@ p{
  /* inicio estilos hero */
     .hero__seccion{
         width: 100%;
+        margin-top: 3% !important;
     }
     .hero__subTitulo p{
         font-size: 28px;
@@ -251,9 +349,76 @@ p{
     }
     .logoClientes{
         flex-direction: column !important;
+        
+    }
+    .logoClientes img{
+        margin-bottom: 5% !important;
     }
     .suscribete{
         margin-top: 6%;
+    }
+    .suscribete form input{
+        font-size: 1.5vh;
+    }   
+    .equipo__contenedor--tarjetas{
+        flex-direction: column;
+        margin: 10%;
+        justify-content: center;
+        align-items: center;
+    }
+    .suscribete form input{
+        font-size: 1vh;
+    }
+  
+    .btn-blanco{
+        font-size: 16px !important;
+        width: 220px !important;
+        height: 45px !important;
+    }
+    .btn-blanco-out{
+        font-size: 16px !important;
+        width: 220px !important;
+        height: 45px !important;
+    }
+    .btn-blanco-out:hover{
+        font-size: 16px !important;
+        width: 220px !important;
+        height: 45px !important;
+    }
+    .bloque1__textoSuperior p{
+        max-width:74% !important;
+    }
+
+    .equipo{
+        min-height: 43vh !important;
+
+    }
+    .equipo--tarjeta h3{
+        font-size: 20px !important;
+    }
+    .equipo--tarjeta p{
+        font-size: 16px !important;
+        margin: 1% !important;
+    }
+    .tarjeta__contenedor--socialMedia img{
+        height: 18px !important;
+
+    }
+    .btn-rosado{
+        font-size: 20px !important;
+        width: 200px !important;
+        height: 35px !important;
+    }   
+    .tarjeta__contenedor--img{
+        margin: 2%;
+    }
+    .equipo--tarjeta{
+        width: 58%;
+        height: 50%;
+        margin: 3%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 }
 @media (min-width: 1082px) and (max-width: 1200px) {
@@ -291,6 +456,9 @@ p{
     .cajaImagenTextDer img{
         width: 50% !important;
     }
+    .suscribete form input{
+        font-size: 2vh;
+    }   
 }
 @media (min-width: 1201px) and (max-width: 1440px) {
     /* incio menu */
@@ -319,6 +487,52 @@ p{
     .textoImagen p{
         max-width: 540px;
     }
+    .suscribete form input{
+        font-size: 2vh;
+    }  
+    .btn-blanco{
+        font-size: 16px !important;
+        width: 220px !important;
+        height: 45px !important;
+    }
+    .btn-blanco-out{
+        font-size: 16px !important;
+        width: 220px !important;
+        height: 45px !important;
+    }
+    .btn-blanco-out:hover{
+        font-size: 16px !important;
+        width: 220px !important;
+        height: 45px !important;
+    }
+    .bloque1__textoSuperior p{
+        max-width:74% !important;
+    }
+    .cajaImagenTextDer img {
+        max-width: initial !important;
+    }
+    .cajaImagenTextIzq img {
+        max-width: initial !important;
+    }
+    .equipo{
+        min-height: 43vh !important;
+    }
+    .equipo--tarjeta h3{
+        font-size: 20px !important;
+    }
+    .equipo--tarjeta p{
+        font-size: 16px !important;
+        margin: 1% !important;
+    }
+    .tarjeta__contenedor--socialMedia img{
+        height: 24px !important;
+
+    }
+    .btn-rosado{
+        font-size: 16px !important;
+        width: 220px !important;
+        height: 45px !important;
+    } 
 }
 @media (min-width: 1441px) {
     h2 {
@@ -357,11 +571,58 @@ p{
 
 
     .textoImagen p{
-        max-width: 540px;
+        max-width: 60% !important;
+        margin-left: 2%
 
     }
     .bloque{
         min-width: 100vw;
+    }
+    .suscribete form input{
+        font-size: 3vh;
+    }   
+    .btn-blanco{
+        font-size: 22px !important;
+        width: 220px !important;
+        height: 45px !important;
+    }
+    .btn-blanco-out{
+        font-size: 22px !important;
+        width: 220px !important;
+        height: 45px !important;
+    }
+    .btn-blanco-out:hover{
+        font-size: 22px !important;
+        width: 220px !important;
+        height: 45px !important;
+    }
+    .bloque1__textoSuperior p{
+        max-width:74% !important;
+    }
+    .cajaImagenTextDer img {
+        max-width: initial !important;
+    }
+    .cajaImagenTextIzq img {
+        max-width: initial !important;
+    }
+    .equipo{
+        min-height: 43vh !important;
+    }
+    .equipo--tarjeta h3{
+        font-size: 30px !important;
+    }
+    .equipo--tarjeta p{
+        font-size: 23px !important;
+        margin: 1% !important;
+    }
+    .tarjeta__contenedor--socialMedia img{
+        height: 24px !important;
+
+    }
+    .btn-rosado{
+        font-size: 22px !important;
+        width: 220px !important;
+        height: 45px !important;
     }
 }
   /* incio menu */
@@ -543,10 +804,10 @@ font-family: 'Poppins', Light;
     display: none !important;
 }
 .cajaImagenTextIzq img{
-    max-width: 70%;
+    max-width: 70% !important;
     }
 .cajaImagenTextDer img{
-    max-width: 70%;
+    max-width: 70% !important;
     }
 .textoImagen p{
     max-width: 540px;
@@ -598,6 +859,7 @@ height: 30%;
 .equipo__contenedor--tarjetas{
     display: flex;
     justify-content: space-around;
+    padding-bottom: 5%;
 }
 .equipo--tarjeta{
     background-color: #FFFFFF;
@@ -705,27 +967,32 @@ height: 30%;
     color: #FF79B2;
 }
 .logoClientes{
+    margin-top: 3%;
+    margin-bottom: 3%;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 .suscribete{
     text-align: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
 }
 .suscribete form{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 5%;
 }
 
 .suscribete form input{
     border-radius: 30px;
-    width: 22rem;
-    height: 4rem;
+    width: 40%;
+    height: 5vh;
     border: 1px solid #E95298;
     padding-left: 2%;
     text-align: center;
-    margin: 1%
+    margin: 1%;
 }
 
 .suscribete form input::placeholder{
