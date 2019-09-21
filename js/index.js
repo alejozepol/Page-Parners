@@ -19,3 +19,19 @@ function Mostrar(){
     Ocultar()
    }
 }
+
+const header = document.getElementById('header')
+
+
+var bgHeader = () =>{
+
+if (window.scrollY >=20) {
+  header.className ='header--bg'
+} else{
+  header.className =''
+}
+
+
+}
+
+window.onscroll = function() {this.bgHeader()};
