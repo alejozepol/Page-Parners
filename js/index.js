@@ -2,20 +2,18 @@ var listaMenu = document.getElementById('listaMenu')
 
 function Mostrar(){
     listaMenu.classList.add('mostrar');
+    header.className ='header--bg'
   }
   function Ocultar(){
     listaMenu.classList.remove('mostrar');
+    bgHeader()
   }
 
   function Mostrar_Ocultar(){
 
    if(listaMenu.classList != "mostrar"){
     Mostrar()
-    console.log('mostrar')
-    console.log(listaMenu.classList)
    } else if(listaMenu.classList = "mostrar"){
-    console.log('ocultar')
-    console.log(listaMenu.classList)
     Ocultar()
    }
 }
