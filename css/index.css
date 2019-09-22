@@ -591,12 +591,10 @@ p{
     .bloque1__textoSuperior p{
         max-width:74% !important;
     }
-    .cajaImagenTextDer img {
-        max-width: initial !important;
-    }
-    .cajaImagenTextIzq img {
-        max-width: initial !important;
-    }
+.cajaImagenTextDer{
+    min-width:74% !important;
+}
+
     .equipo{
         min-height: 43vh !important;
     }
@@ -682,7 +680,7 @@ p{
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-/*     margin-top: 7%; */
+/*     padding-top: 2%; */
     margin-left: 0%;
     margin-right: 0%;
     margin-bottom: 0%;
@@ -700,7 +698,7 @@ p{
     height: 72hv;
 }
 .hero__titulo{
-padding-top: 12%;
+padding-top: 16%;
 display: flex;
 font-family: 'Poppins';
 -webkit-text-stroke-width: 1px;
