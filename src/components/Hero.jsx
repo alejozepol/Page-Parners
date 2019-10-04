@@ -1,6 +1,7 @@
 import React from 'react';
-import '../assets/styles/components/Hero.scss';
 import BgHero from '../assets/static/hero510.png';
+import '../assets/styles/components/Hero.scss';
+import '../assets/styles/components/Button.scss';
 
 const Hero = () => (
   <section className='Hero'>
@@ -16,8 +17,8 @@ const Hero = () => (
       <h3>Practica</h3>
     </div>
     <div className='Hero__button'>
-      <button type='button'>Demo</button>
-      <button type='button'>Descubre Mas</button>
+      <button type='button' className='btn btn-blanco'>Demo</button>
+      <button type='button' className='btn btn-blanco-out'>Descubre Mas</button>
     </div>
   </section>
 );

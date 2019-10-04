@@ -1,25 +1,23 @@
-import React, { Component } from 'react';
+/* eslint-disable class-methods-use-this */
+import React from 'react';
+import '../assets/styles/components/Button.scss';
 
-class Button extends Component {
+class Button {
+  constructor(primary, text, url) {
 
-    handleclick = () =>{
-      this.setState({
-        count : this.state.count+ 1,
-      })
+    if (primary) {
+      this.BtnBlancoLink(url, text);
     }
 
-    render() {
-      const { count } = this.state
-      return(
-        <div>
-          <h1>Manzanas: </h1>
-          <button type="button" onClick={this.handleclick}>
-                    Agregar
-          </button>
-        </div>
-      )
-    }
+  }
 
+  BtnBlancoLink(url, text) {
+    return (
+      <a className='btn' href={url} type='button' target='_blank' rel='noopener noreferrer'>
+        {text}
+      </a>
+    );
+  }
 }
 
 export default Button;

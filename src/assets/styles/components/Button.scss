@@ -1,0 +1,19 @@
+@import '../global.scss';
+
+.btn{
+    width: 20%;
+    height: 35px;
+    padding: 0%;
+    margin: 0 1%;
+    border-radius: 30px;
+    border: 1px solid $color-claro;
+    @extend .sombraOscura;
+    &-blanco{
+        background-color: $color-claro;
+        color: $color-oscuro;
+    }
+    &-blanco-out{
+        background-color: transparent;
+        color: $color-claro;
+    }
+}
