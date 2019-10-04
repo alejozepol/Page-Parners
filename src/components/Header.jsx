@@ -4,7 +4,7 @@ import Logo from '../assets/static/Logo.png';
 import Desplegable from '../assets/static/desplegable.png';
 import '../assets/styles/components/Header.scss';
 
-const Header = () =>(
+const Header = () => (
   <section className='Header'>
     <div className='Header__Hamburger'>
       <img className='Header__Hamburger_img' src={icoHamburger} alt='Menu Hamburgesa' />

@@ -5,6 +5,10 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    position: fixed;
+    top:0;
+    width: 100vw;
+    z-index: 1040;
     &__Hamburger{
         @extend .centradoFlex;
         &_img, &_text{
