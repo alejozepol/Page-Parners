@@ -17,10 +17,11 @@
         & h3{
             padding: 3%;
         }
-        @extend .centradoFlex
+        @extend .centradoFlex;
     }
     &__button{
         padding-top: 7%;
+        @extend .centradoFlex;
     }
     
 }

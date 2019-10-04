@@ -2,18 +2,28 @@
 
 .btn{
     width: 20%;
-    height: 35px;
+    height: 30px;
     padding: 0%;
     margin: 0 1%;
+    text-decoration: none;
     border-radius: 30px;
     border: 1px solid $color-claro;
     @extend .sombraOscura;
+    @extend .centradoFlex;
     &-blanco{
         background-color: $color-claro;
         color: $color-oscuro;
     }
+    &-blanco:hover{
+        background-color: $color-segundario;
+        color: $color-claro;
+    }
     &-blanco-out{
         background-color: transparent;
+        color: $color-claro;
+    }
+    &-blanco-out:hover{
+        background-color: $color-primario;
         color: $color-claro;
     }
 }
