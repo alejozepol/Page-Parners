@@ -1,0 +1,26 @@
+@import '../global.scss';
+
+.Hero{
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    text-align: center;
+    & img{
+        width: 100vw;
+        position: absolute;
+        z-index: -1;
+    }
+    &__title{
+        padding-top: 20%;
+    }
+    &__subTitle{
+        & h3{
+            padding: 3%;
+        }
+        @extend .centradoFlex
+    }
+    &__button{
+        padding-top: 7%;
+    }
+    
+}

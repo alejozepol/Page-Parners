@@ -8,7 +8,7 @@ $color-segundario: #5c1dfc;
 $color-claro: #fff;
 $color-oscuro: #000;
 $font-primaria: 'Poppins', sans-serif;
-$font-size-primaria: 20px;
+$font-size-primaria: 10px;
 
 .centradoFlex {
     display: flex;
@@ -18,7 +18,16 @@ $font-size-primaria: 20px;
 
 body{
     margin: 0%;
+    padding: 0%;
+    width: 100vw;
     color: $color-claro;
     font-family: $font-primaria;
     font-size: $font-size-primaria;
 }
+
+@each $header, $size in (h2: 35px, h3: 20px, h4:16px) {
+    #{$header} {
+          font-size: $size;
+          margin: 0;
+    }
+  };
