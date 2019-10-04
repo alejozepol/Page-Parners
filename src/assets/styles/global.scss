@@ -1,0 +1,24 @@
+/* Variables */
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+
+/* variables  */
+
+$color-primario: #21c08b;
+$color-segundario: #5c1dfc;
+$color-claro: #fff;
+$color-oscuro: #000;
+$font-primaria: 'Josefin Sans', sans-serif;
+$font-size-primaria: 20px;
+
+.centradoFlex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    margin: 0%;
+    color: $color-claro;
+    font-family: $font-primaria;
+    font-size: $font-size-primaria;
+}
