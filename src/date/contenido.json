@@ -1,0 +1,41 @@
+{
+    "header":[
+        {
+        "menu":[
+            {
+            "id":1,
+            "text":"Inicio"
+            },
+            {
+            "id":2,
+            "text":"Contexto"
+            },
+            {
+            "id":3,
+            "text":"Propuesta"
+            },
+            {
+            "id":4,
+            "text":"Solución"
+            },
+            {
+            "id":5,
+            "text":"Equipo"
+            }
+        ],
+        "idioma":[
+            
+        ]
+        }
+    ],
+    "hero":[
+
+    ],
+    "initBlock":[
+            {
+                "id":1,
+                "title":"No te ha pasado…",
+                "content": "Que quieres hacer deporte, pero tus amigos, pareja o familia no pueden, tampoco no sabes dónde puedes ejercitarte y esto te desmotiva, por eso desistes de tomar una vida más saludable. A Sebastián también le paso, pero ahora su vida es diferente y puede ejercitarse cuando quiera y donde quiera con nuevas personas iguales a él"
+            }
+    ]
+}
