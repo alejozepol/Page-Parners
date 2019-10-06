@@ -1,0 +1,16 @@
+@import '../global.scss';
+
+.BlockImg{
+  display: flex;
+  justify-content: space-around;
+  padding: 10%;
+  &__contenido{
+    padding-right: 5%;
+  }
+}
+.BlockImg--izq{
+  flex-direction: row-reverse;
+  &__contenido{
+    padding-left: 5%;
+  }
+}

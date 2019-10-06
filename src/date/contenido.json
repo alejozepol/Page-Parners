@@ -38,31 +38,30 @@
         "content": "Que quieres hacer deporte, pero tus amigos, pareja o familia no pueden, tampoco no sabes dónde puedes ejercitarte y esto te desmotiva, por eso desistes de tomar una vida más saludable. A Sebastián también le paso, pero ahora su vida es diferente y puede ejercitarse cuando quiera y donde quiera con nuevas personas iguales a él"
         }
     ],
-    "blockImg":[
+    "BlockImg":[
         {
             "id":1,
             "title": "¿Qué ocurre?",
             "content":"Sebastián es un hombre de 24 años, de clase media, quien actualmente está empezando su vida laboral; en la universidad aprovecho las opciones que tuvo para practicar deporte, estuvo en el equipo de fútbol y ocasionalmente asistía al gimnasio; aunque muchas veces le costaba encontrar una persona para que le acompañase o con quien pudiese completar un equipo, por lo que dejaba de hacer deporte. Ahora, continua con el deseo de mantenerse en forma, aunque con menos tiempo y más responsabilidades, por lo que hace un tiempo estuvo inscrito en un gimnasio, pero nunca fue, pues no sentía una motivación que lo llevase a hacer deporte…",
-            "url":""
-
+            "izquierda": false
         },
         {
             "id":2,
             "title": "Todo cambió con PARNERS",
             "content":"En este momento él conoce PARNERS, un amigo que lo ayuda a conectarse con personas en la misma situación que él, con quienes puede practicar su deporte favorito a la hora y lugar donde se encuentre, le muestra espacios aptos y disponibles donde podrá practicar el deporte que guste de forma rápida y sencilla, además le enseña a crear y a hacer parte de diversos eventos de sus deportes favoritos en compañía de personas con una afinidad deportiva similares a él.",
-            "url":""
+            "izquierda": true
         },
         {
             "id":3,
             "title": "Y ahora…",
             "content":"Sebastián juega fútbol todos los sábados con un nuevo grupo de amigos, ha descubierto nuevos deportes en los que es bueno, además ha encontrado nuevos espacios que no conocía cerca a su casa para disfrutar del deporte. Su pareja, familia y amigos se han motivado a unirse a la comunidad de PARNERS donde han encontrado de forma rápida, instantánea y eficiente una comunidad de personas, espacios y eventos que los motivan a lograr sus objetivos y llevar una vida más saludable de la mano del deporte.",
-            "url":""
+            "izquierda": false
         },
         {
             "id":4,
             "title": "PARNERS es más que una comunidad de personas unidas por el deporte.",
             "content":"Somos un medio con el que te puedes conectar, mediante un buscador personalizado, con las personas que vivan el deporte igual que tú, con el lugar ideal para practicar tu actividad favorita o un evento relacionado a tus intereses deportivos. Con nosotros ahorraras tiempo, disfrutaras de una experiencia más segura y lo mejor, no te limitamos por tu estilo de vida",
-            "url":""
+            "izquierda": true
         }
     ]
 }
