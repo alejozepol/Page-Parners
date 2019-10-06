@@ -10,6 +10,9 @@ import ln from '../assets/static/ln.png';
 import ig from '../assets/static/ig.png';
 import gh from '../assets/static/gh.png';
 import FotoFarid from '../assets/static/foto-Farid.png';
+import FotoAlejandro from '../assets/static/foto-alejandro.png';
+import FotoCristian from '../assets/static/foto-cristian.png';
+import FotoJulian from '../assets/static/foto-Julian.png';
 
 const UseInitialSatete = () => {
   const [initalState, setinitalState] = useState(Date);
@@ -42,7 +45,9 @@ const UseInitialSatete = () => {
   });
 
   initalState.team[0].img = FotoFarid;
-
+  initalState.team[1].img = FotoAlejandro;
+  initalState.team[2].img = FotoCristian;
+  initalState.team[3].img = FotoJulian;
   return initalState;
 };
 

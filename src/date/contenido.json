@@ -64,36 +64,108 @@
             "izquierda": true
         }
     ],
-    "team":[{
-        "id":1,
-        "name":"Farid Ramírez",
-        "position":["Desarrollador de negocio", "Diseñador"], 
-        "socialMedia":[
-            {
-            "name":"be",
-            "url": "https://www.behance.net/freakingsouls",
-            "icon":""
-            },
-            {
-            "name":"fb",
-            "url": "https://www.behance.net/freakingsouls",
-            "icon":""
-            },
-            {
-            "name":"ln",
-            "url": "https://www.behance.net/freakingsouls",
-            "icon":""
-            },
-            {
-            "name":"ig",
-            "url": "https://www.behance.net/freakingsouls",
-            "icon":""
-            },
-            {
-            "name":"gh",
-            "url": "",
-            "icon":""
-            }
+    "team":[
+        {
+            "id":1,
+            "name":"Farid Ramírez",
+            "position":["Desarrollador de negocio", "Diseñador"], 
+            "socialMedia":[
+                {
+                "name":"be",
+                "url": "https://www.behance.net/freakingsouls",
+                "icon":""
+                },
+                {
+                "name":"ln",
+                "url": "https://www.linkedin.com/mwlite/me",
+                "icon":""
+                },
+                {
+                "name":"ig",
+                "url": "https://instagram.com/freakingsouls?igshid=qdqftgogjkqo",
+                "icon":""
+                },
+                {
+                "name":"fb",
+                "url": "https://www.facebook.com/farid.sebastian.ramirez",
+                "icon":""
+                }
+            ],
+            "url":"https://drive.google.com/file/d/1YsfselvV-OpbZKpjUQmlWY33HcxfrPZd/view?usp=sharing"
+        },
+        {
+            "id":2,
+            "name":"Alejandro López Ramírez",
+            "position":["Desarrollador de producto digital", "Desarrollador"], 
+            "socialMedia":[
+                {
+                "name":"gh",
+                "url": "https://github.com/alejozepol",
+                "icon":""
+                },
+                {
+                "name":"ln",
+                "url": "https://www.linkedin.com/mwlite/me",
+                "icon":""
+                },
+                {
+                "name":"ig",
+                "url": "https://instagram.com/freakingsouls?igshid=qdqftgogjkqo",
+                "icon":""
+                },
+                {
+                "name":"fb",
+                "url": "https://www.facebook.com/farid.sebastian.ramirez",
+                "icon":""
+                }
+            ],
+            "url": "https://alejozepol.com"   
+        },
+        {
+            "id":3,
+            "name":"Cristian Guzman",
+            "position":["Gestor Comercial"], 
+            "socialMedia":[
+                {
+                "name":"ln",
+                "url": "https://bit.ly/LinkedInCristian",
+                "icon":""
+                },
+                {
+                "name":"ig",
+                "url": "https://bit.ly/cristianguzman",
+                "icon":""
+                },
+                {
+                "name":"fb",
+                "url": "https://bit.ly/Fanpage_facebookCG",
+                "icon":""
+                }
+            ],
+            "url":"https://drive.google.com/file/d/18pHF74rHE7YCfvNxl2HvHHh3FZhGpA7G/view?usp=sharing"
+        },
+        {
+            "id":4,
+            "name":"Julian Torres",
+            "position":["CEO"], 
+            "socialMedia":[
+                {
+                "name":"ln",
+                "url": "https://bit.ly/LinkedInCristian",
+                "icon":""
+                },
+                {
+                "name":"ig",
+                "url": "https://www.instagram.com/monotone_pictures/",
+                "icon":""
+                },
+                {
+                "name":"fb",
+                "url": "https://www.facebook.com/monopictures?ref=bookmarks",
+                "icon":""
+                }
+            ],
+            "url":"https://drive.google.com/file/d/1zEoEv4bI5SWXgp3mEp2GPTTmRpOvoukS/view?usp=sharing"   
+        }
     ]
-    }]
 }

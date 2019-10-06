@@ -12,14 +12,14 @@ const TeamCard = ({ img, name, position, socialMedia }) => (
     </div>
     <div className='teamCard__socialMedia'>
       {socialMedia.map((s) => { 
-        if (s.url !== "") {
+        if (s.url !== '') {
           return (
             <a href={s.url} target='_blank' rel='noopener noreferrer'>
               <img src={s.icon} alt={s.name} />
             </a>
-        )
+          );
         }
-        })}
+      })}
 
     </div>
   </div>
