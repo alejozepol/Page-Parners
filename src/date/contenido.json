@@ -63,5 +63,37 @@
             "content":"Somos un medio con el que te puedes conectar, mediante un buscador personalizado, con las personas que vivan el deporte igual que tú, con el lugar ideal para practicar tu actividad favorita o un evento relacionado a tus intereses deportivos. Con nosotros ahorraras tiempo, disfrutaras de una experiencia más segura y lo mejor, no te limitamos por tu estilo de vida",
             "izquierda": true
         }
+    ],
+    "team":[{
+        "id":1,
+        "name":"Farid Ramírez",
+        "position":["Desarrollador de negocio", "Diseñador"], 
+        "socialMedia":[
+            {
+            "name":"be",
+            "url": "https://www.behance.net/freakingsouls",
+            "icon":""
+            },
+            {
+            "name":"fb",
+            "url": "https://www.behance.net/freakingsouls",
+            "icon":""
+            },
+            {
+            "name":"ln",
+            "url": "https://www.behance.net/freakingsouls",
+            "icon":""
+            },
+            {
+            "name":"ig",
+            "url": "https://www.behance.net/freakingsouls",
+            "icon":""
+            },
+            {
+            "name":"gh",
+            "url": "",
+            "icon":""
+            }
     ]
+    }]
 }
