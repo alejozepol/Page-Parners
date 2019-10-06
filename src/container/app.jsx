@@ -6,6 +6,7 @@ import TextBlock from '../components/TextBlock';
 import BlockImg from '../components/BlockImg';
 import TeamCardContainer from '../components/TeamCardContainer';
 import TeamCard from '../components/TeamCard';
+import Clients from '../components/Clients'
 
 const App = () => {
 
@@ -20,6 +21,7 @@ const App = () => {
       <TeamCardContainer title='Equipo'>
         { initialState.team.map((item) => <TeamCard key={item.id} name={item.name} img={item.img} position={ item.position.map((p) => p)} socialMedia={item.socialMedia.map((s) => s)} url={item.url} />) }
       </TeamCardContainer>
+      <Clients />
     </div>
   );
 };
