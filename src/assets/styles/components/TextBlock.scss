@@ -1,0 +1,9 @@
+@import '../global.scss';
+
+.textBlock{
+  padding: 10%;
+  text-align: center;
+  &__text{
+    line-height: 1.5rem;
+  }
+}
