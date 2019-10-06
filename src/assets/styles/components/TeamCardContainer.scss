@@ -1,1 +1,13 @@
 @import '../global.scss';
+
+.teamCardContainer{
+  text-align: center;
+  background-color: $color-primario;
+  &__title{
+    color: $color-claro;
+    padding-top: 10%;
+  }
+  &__Item{
+    padding: 10%;
+  }
+}

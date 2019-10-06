@@ -1,1 +1,31 @@
 @import '../global.scss';
+
+.teamCard{
+  display: flex;
+  align-items: center;
+  border-radius: 30px;
+  margin: 10% 0;
+  color: $color-oscuro;
+  background-color: $color-claro;
+  &__img{
+    padding: 3%;
+    border-left-style: 1px solid $color-oscuro;
+    & img{
+      width: 185px;
+      height: 185px;
+    }
+  }
+  &__date{
+    width: 40%;
+    &__socialMedia{
+     display: flex;
+     justify-content: space-evenly;
+    }
+    & h3{
+      font-size: 28px;
+      font-weight: 600;
+      font-style: Bold italic;
+
+    }
+  }
+}

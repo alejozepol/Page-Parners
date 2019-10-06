@@ -7,20 +7,19 @@ const TeamCard = ({ img, name, position, socialMedia }) => (
       <img src={img} alt={name} />
     </div>
     <div className='teamCard__date'>
-      <h3>{ name }</h3>
+       <em><h3> { name } </h3></em> 
       {position.map((p) => <p>{ p }</p>)}
-    </div>
-    <div className='teamCard__socialMedia'>
-      {socialMedia.map((s) => { 
-        if (s.url !== '') {
-          return (
-            <a href={s.url} target='_blank' rel='noopener noreferrer'>
-              <img src={s.icon} alt={s.name} />
-            </a>
-          );
-        }
-      })}
-
+      <div className='teamCard__date__socialMedia'>
+        {socialMedia.map((s) => {
+          if (s.url !== '') {
+            return (
+              <a href={s.url} target='_blank' rel='noopener noreferrer'>
+                <img src={s.icon} alt={s.name} />
+              </a>
+            );
+          }
+        })}
+      </div>
     </div>
   </div>
 
