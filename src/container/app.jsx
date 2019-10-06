@@ -18,7 +18,7 @@ const App = () => {
       { initialState.initBlock.map((item) => <TextBlock key={item.id} {...item} />) }
       { initialState.BlockImg.map((item) => <BlockImg key={item.id} {...item} />) }
       <TeamCardContainer title='Equipo'>
-        { initialState.team.map((item) => <TeamCard key={item.id} name={item.name} img={item.img} position={ item.position.map((p) => p)} socialMedia={item.socialMedia.map((s) => s)} />) }
+        { initialState.team.map((item) => <TeamCard key={item.id} name={item.name} img={item.img} position={ item.position.map((p) => p)} socialMedia={item.socialMedia.map((s) => s)} url={item.url} />) }
       </TeamCardContainer>
     </div>
   );

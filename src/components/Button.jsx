@@ -2,22 +2,12 @@
 import React from 'react';
 import '../assets/styles/components/Button.scss';
 
-class Button {
-  constructor(primary, text, url) {
-
-    if (primary) {
-      this.BtnBlancoLink(url, text);
-    }
-
-  }
-
-  BtnBlancoLink(url, text) {
-    return (
-      <a className='btn' href={url} type='button' target='_blank' rel='noopener noreferrer'>
-        {text}
-      </a>
-    );
-  }
-}
+const Button = (isTrue, text, url) => {
+  return (
+    <div className='HolaMundo'>
+      {isTrue ? <a type='button' href='x' className='btn btn-blanco'>{text}</a> : <a type='button' href={url} className='btn btn-blanco-out'>{text}</a>}
+    </div>
+  );
+};
 
 export default Button;

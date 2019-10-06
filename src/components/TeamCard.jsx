@@ -1,7 +1,7 @@
 import React from 'react';
 import '../assets/styles/components/TeamCard.scss';
 
-const TeamCard = ({ img, name, position, socialMedia }) => (
+const TeamCard = ({ img, name, position, socialMedia, url }) => (
   <div className='teamCard'>
     <div className='teamCard__img'>
       <img src={img} alt={name} />
@@ -19,6 +19,9 @@ const TeamCard = ({ img, name, position, socialMedia }) => (
             );
           }
         })}
+      </div>
+      <div className='teamCard__button'>
+      <a type='button' href={url} className='btn btn-blanco' target='_blank' rel='noopener noreferrer'>Ver Demostracion</a>
       </div>
     </div>
   </div>
