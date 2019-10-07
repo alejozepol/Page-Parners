@@ -7,6 +7,7 @@
   margin: 10% 0;
   color: $color-oscuro;
   background-color: $color-claro;
+  @extend .sombraOscura;
   &__img{
     padding: 3%;
     border-left-style: 1px solid $color-oscuro;

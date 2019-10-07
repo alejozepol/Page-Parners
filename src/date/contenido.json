@@ -1,35 +1,53 @@
 {
     "header":[
         {
-        "menu":[
-            {
-            "id":1,
-            "text":"Inicio"
-            },
-            {
-            "id":2,
-            "text":"Contexto"
-            },
-            {
-            "id":3,
-            "text":"Propuesta"
-            },
-            {
-            "id":4,
-            "text":"Solución"
-            },
-            {
-            "id":5,
-            "text":"Equipo"
-            }
-        ],
-        "idioma":[
-            
-        ]
+            "menu":[
+                {
+                "id":1,
+                "text":"Inicio"
+                },
+                {
+                "id":2,
+                "text":"Contexto"
+                },
+                {
+                "id":3,
+                "text":"Propuesta"
+                },
+                {
+                "id":4,
+                "text":"Solución"
+                },
+                {
+                "id":5,
+                "text":"Equipo"
+                }
+            ],
+            "idioma":[
+                
+            ]
         }
     ],
     "hero":[
-
+        {
+        "id": 1,
+        "title": "Entrenemos Juantos",
+        "subTitle": ["Descubre", "Conecta", "Practica"],
+        "cta": [
+                {   
+                "id":1, 
+                "text":"Descubre Más", 
+                "style":"btn btn-blanco", 
+                "url":"d"
+                },
+                {   
+                "id":2,
+                "text":"Ver Demostracion", 
+                "style":"btn btn-blanco-out",
+                "url":"http://parners.co/"
+                }
+               ]
+        }
     ],
     "initBlock":[
         {

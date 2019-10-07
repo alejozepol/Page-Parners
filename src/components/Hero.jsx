@@ -1,8 +1,7 @@
 import React from 'react';
-import BgHero from '../assets/static/hero510.png';
+import BgHero from '../assets/static/Hero.png';
 import '../assets/styles/components/Hero.scss';
 import '../assets/styles/components/Button.scss';
-import Button from './Button';
 
 const Hero = () => {
   const urlDemo = 'http://parners.co/';

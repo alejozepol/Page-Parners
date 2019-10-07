@@ -2,7 +2,7 @@
 
 .teamCardContainer{
   text-align: center;
-  background-color: $color-primario;
+  @extend .degragadoColor;
   &__title{
     color: $color-claro;
     padding-top: 10%;

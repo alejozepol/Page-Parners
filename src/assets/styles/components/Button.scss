@@ -26,4 +26,12 @@
         background-color: $color-primario;
         color: $color-claro;
     }
+    &-blanco-color{
+        color: $color-claro;
+        @extend .degragadoColor;
+    }
+    &-blanco-color:hover{
+        background-color: $color-primario;
+        color: $color-claro;
+    }
 }

@@ -3,8 +3,8 @@
 
 /* variables  */
 
-$color-primario: #FF004F;
-$color-segundario: #FD9F64;
+$color-primario: #FD9F64;
+$color-segundario: #FF004F;
 $color-claro: #ffffff;
 $color-oscuro: #000000;
 $color-oscuro-opacidad: #0000007e;
@@ -17,6 +17,17 @@ $size-sombra: 0px 8px 22px 0px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.degragadoColor{
+    background: $color-primario;
+    background: -moz-linear-gradient(top, $color-primario 0%, $color-segundario 100%);
+    background: -webkit-gradient(top, left bottom, color-stop(0%, $color-primario), color-stop(100%, $color-segundario));
+    background: -webkit-linear-gradient(top, $color-primario (0%, $color-segundario) 100%);
+    background: -o-linear-gradient(top, $color-primario 0%, $color-segundario 100%);
+    background: -ms-linear-gradient(top, $color-primario 0%, $color-segundario 100%);
+    background: linear-gradient(top, $color-primario 0%, $color-segundario 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$color-primario', endColorstr='$color-segundario', GradientType=0 );
+
 }
 
 .sombraOscura{
